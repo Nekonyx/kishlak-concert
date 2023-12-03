@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "build",
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "include": ["src"]
+}
